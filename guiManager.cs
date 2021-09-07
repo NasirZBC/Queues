@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Queues
 {
-    class GUI
+    class guiManager
     {
-
     }
 }
