@@ -1,21 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Queues.Data
+﻿namespace Queues
 {
     public class Person
     {
         private string name;
         private int age;
 
-
-        public Person(string Name, int Age)
+        public Person(string name_, int age_)
         {
-            this.name = Name;
-            this.age = Age;
+            this.name = name_;
+            this.age = age_;
         }
 
         public string Name
@@ -28,6 +21,6 @@ namespace Queues.Data
         {
             get { return age; }
             set { age = value; }
-        }      
+        }
     }
 }
